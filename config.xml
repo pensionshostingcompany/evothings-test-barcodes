@@ -32,10 +32,9 @@
         </edit-config>
     </platform>
     <plugin name="phonegap-plugin-barcodescanner" spec="^8.0.1" />
-    <engine name="ios" spec="~4.5.5" />
     <engine name="android" spec="~7.1.4" />
     <plugin name="cordova-plugin-media-capture" source="npm" spec="*">
         <variable name="CAMERA_USAGE_DESCRIPTION" value="App would like to access the camera." />
     </plugin>
-
+    <engine name="ios" spec="~4.5.5" />
 </widget>

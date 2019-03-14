@@ -7,13 +7,16 @@
     "files": {}
   },
   "installed_plugins": {
-    "phonegap-plugin-barcodescanner": {
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "uk.co.mantlehosting.barcodeapp"
+    },
+    "cordova-plugin-media-capture": {
       "PACKAGE_NAME": "uk.co.mantlehosting.barcodeapp"
     },
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "uk.co.mantlehosting.barcodeapp"
     },
-    "cordova-plugin-media-capture": {
+    "phonegap-plugin-barcodescanner": {
       "PACKAGE_NAME": "uk.co.mantlehosting.barcodeapp"
     }
   },

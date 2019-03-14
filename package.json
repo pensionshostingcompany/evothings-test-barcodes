@@ -22,11 +22,13 @@
         "plugins": {
             "phonegap-plugin-barcodescanner": {},
             "cordova-plugin-whitelist": {},
-            "cordova-plugin-media-capture": {}
+            "cordova-plugin-media-capture": {
+                "CAMERA_USAGE_DESCRIPTION": "App would like to access the camera."
+            }
         },
         "platforms": [
-            "ios",
-            "android"
+            "android",
+            "ios"
         ]
     }
 }
