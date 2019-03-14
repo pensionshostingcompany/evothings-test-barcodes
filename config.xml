@@ -31,7 +31,9 @@
             <string>This app requires access to your camera to scan barcodes.</string>
         </edit-config>
     </platform>
-    <plugin name="phonegap-plugin-barcodescanner" spec="^8.0.1" />
+    <plugin name="phonegap-plugin-barcodescanner" spec="^7.0.2" >
+        <variable  name="CAMERA_USAGE_DESCRIPTION" value="App would like to access the camera." />
+    </plugin>
     <engine name="android" spec="~7.1.4" />
     <plugin name="cordova-plugin-media-capture" source="npm" spec="*">
         <variable name="CAMERA_USAGE_DESCRIPTION" value="App would like to access the camera." />
